@@ -1,0 +1,8 @@
+opencv-python>=4.5
+numpy>=1.20
+pandas>=1.3
+matplotlib>=3.4
+scipy>=1.7
+streamlit>=1.30                # web portal (app.py); not needed for the CLIs
+streamlit-image-coordinates>=0.1  # click-two-dots manual calibration in the portal
+# (Without it the portal still works — type the pixel span from calibrate.py.)
